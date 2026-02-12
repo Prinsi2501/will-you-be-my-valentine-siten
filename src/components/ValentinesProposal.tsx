@@ -86,6 +86,7 @@ export default function ValentinesProposal() {
           <motion.h2
             key="step-0"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            style={{ color: "white" }} 
             transition={{ duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -98,6 +99,7 @@ export default function ValentinesProposal() {
           <motion.h2
             key="step-1"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
+            style={{ color: "white" }} 
             transition={{ duration: 3 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -170,6 +172,7 @@ export default function ValentinesProposal() {
           <motion.div
             key="step-3"
             className={`text-4xl font-semibold mb-4 flex flex-col justify-center items-center ${playfairDisplay.className}`}
+            style={{ color: "white" }} 
             transition={{ duration: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
